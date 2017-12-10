@@ -1,0 +1,8 @@
+name: RedXS
+main: com.redmancometh.redxs.RedXS
+version: 1.0
+depend: [RedCore]
+commands:
+  xsreload:
+      description: Reload.
+      usage: /xsreload

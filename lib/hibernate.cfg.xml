@@ -1,0 +1,13 @@
+<hibernate-configuration>
+	<session-factory>
+		<property name="hbm2ddl.auto">create</property>
+		<property name="hibernate.connection.provider_class">com.zaxxer.hikari.hibernate.HikariConnectionProvider
+		</property>
+		<property name="hibernate.hikari.dataSourceClassName">com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+		</property>
+		<property name="hibernate.hikari.dataSource.prepStmtCacheSize">250</property>
+		<property name="hibernate.hikari.dataSource.prepStmtCacheSqlLimit">2048</property>
+		<property name="hibernate.hikari.dataSource.cachePrepStmts">true</property>
+		<property name="hibernate.cache.use_second_level_cache">true</property>
+	</session-factory>
+</hibernate-configuration>
